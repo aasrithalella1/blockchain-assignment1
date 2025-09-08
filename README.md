@@ -16,6 +16,9 @@
 - Mined blocks show `000…` hashes and `nonce=...`.
 - `Is chain valid? true` → after tamper: `false`.
 
+##screenshots
+The output screenshots were stored in the assets blockchain_assignment_1 file
+
 ## Run
 ```bash
 node blockchain.js          # default difficulty = 3
