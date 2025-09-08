@@ -15,8 +15,6 @@
 ## What I got
 - Mined blocks with `000…` hashes and nonce counts.
 - `Is chain valid? true` → after tamper: `false`.
-- Screenshots:  
-  
 
 ## Run
 ```bash
