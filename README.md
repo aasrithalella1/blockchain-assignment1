@@ -19,7 +19,11 @@ node blockchain.js 4     # harder difficulty
 - Is chain valid after tamper? false
 
 ## Screenshots
-(Add your console screenshots here, e.g., mining.png, validation.png)
+### Mining
+![Mining Screenshot](assets/mining.png)
+
+### Validation
+![Validation Screenshot](assets/validation.png)
 
 ## Reflection
 Hashing guarantees immutability: each block’s hash is based on its contents plus the previous block’s hash. Even a tiny data change produces a totally different hash, breaking the chain. Proof-of-Work forces miners to spend real effort finding a hash that meets the difficulty requirement (leading zeros). This makes tampering computationally expensive: an attacker would have to re-mine the edited block and all following ones. Building this assignment clarified how simple concepts—hashing, linking, nonces—combine into a secure blockchain.
