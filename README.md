@@ -16,7 +16,7 @@
 - Mined blocks with `000…` hashes and nonce counts.
 - `Is chain valid? true` → after tamper: `false`.
 - Screenshots:  
-  ![Mining](assets/mining.png)  ![Validation](assets/validation.png)
+  
 
 ## Run
 ```bash
